@@ -8,4 +8,9 @@ class N00StartKtTest {
     fun testOk() {
         assertEquals("OK", task0())
     }
+
+    @Test
+    internal fun name() {
+        Thing().test()
+    }
 }
